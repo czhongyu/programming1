@@ -5,15 +5,14 @@ Problem: scratch
 Correctness: 5
 Grade: pass
 
-Automatic Feedback for Catch the Fruits!.sb2
-:) project exists and is valid Scratch program
-:) project contains at least two sprites
-:) project contains a non-cat sprite
-:) project contains at least three scripts
-:) project uses at least one condition
-:) project uses at least one loop
-:) project uses at least one variable
-:) project uses at least one sound
+- :) project exists and is valid Scratch program
+- :) project contains at least two sprites
+- :) project contains a non-cat sprite
+- :) project contains at least three scripts
+- :) project uses at least one condition
+- :) project uses at least one loop
+- :) project uses at least one variable
+- :) project uses at least one sound
 
 ------------------------------------------------------------------------------
 
