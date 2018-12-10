@@ -2,7 +2,7 @@
 
 Course : CS50x
 Problem: scratch
-Correctness: 5
+``Correctness: 5``
 Grade: pass
 
 - :) project exists and is valid Scratch program
