@@ -46,8 +46,6 @@ Grade: 8.5
 
 ------------------------------------------------------------------------------
 
-12455822
-
 Course : CS50x
 Problem: mario_more
 Correctness: 5
@@ -123,7 +121,7 @@ Problem: hello
 Correctness: 5
 Grade: pass
 
-Totally correct!
+- Totally correct!
 
 ------------------------------------------------------------------------------
 
@@ -132,7 +130,7 @@ Problem: initials_more
 Correctness: 5
 Grade: pass
 
-Totally correct!
+- Totally correct!
 
 ------------------------------------------------------------------------------
 
@@ -141,7 +139,7 @@ Problem: water
 Correctness: 5
 Grade: pass
 
-Totally correct!
+- Totally correct!
 
 ------------------------------------------------------------------------------
 
@@ -150,13 +148,13 @@ Problem: whodunit
 Correctness: 5
 Grade: 10.0
 
-Totally correct!
+- Totally correct!
 
 ------------------------------------------------------------------------------
 
 Course : CS50x
 Problem: quiz1
-Points : 37(full marks)
+Points : 37/37
 Grade  : pass
 
 ------------------------------------------------------------------------------
