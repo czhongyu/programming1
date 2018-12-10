@@ -1,5 +1,5 @@
 # visualization of the sorting processes
 
-#### https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+#### 1. https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
 
-#### https://www.youtube.com/watch?v=kPRA0W1kECg
+#### 2. https://www.youtube.com/watch?v=kPRA0W1kECg
