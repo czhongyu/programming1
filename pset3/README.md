@@ -1,5 +1,6 @@
-# visualization of the sorting processes
+# pset3
 
-#### 1. https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+## visualization of the sorting processes
 
-#### 2. https://www.youtube.com/watch?v=kPRA0W1kECg
+* https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+* https://www.youtube.com/watch?v=kPRA0W1kECg
