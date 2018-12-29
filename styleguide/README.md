@@ -30,7 +30,7 @@ Or this:
 float c = 5.0 / 9.0 * (f - 32.0);
 ```
 
-Atop your .c and .h files should be multi-line comments that summarize what your program (or that particular file) does, as in:
+Atop your `.c` and `.h` files should be multi-line comments that summarize what your program (or that particular file) does, as in:
 
 ```
 /**
@@ -40,11 +40,11 @@ Atop your .c and .h files should be multi-line comments that summarize what your
 
 Notice how:
 
-1. the first line starts with /**;
-1. the last line ends with */; and
-1. all of the asterisks (*) between those lines line up perfectly in a column.
+1. the first line starts with `/**`;
+1. the last line ends with `*/`; and
+1. all of the asterisks `*` between those lines line up perfectly in a column.
 
-Atop each of your functions (except, perhaps, main), meanwhile, should be multi-line comments that summarize what your function, as in:
+Atop each of your functions (except, perhaps, `main`), meanwhile, should be multi-line comments that summarize what your function, as in:
 
 ```
 /**
@@ -78,10 +78,10 @@ else
 Notice how:
 
 1. the curly braces line up nicely, each on its own line, making perfectly clear what’s inside the branch;
-1. there’s a single space after each if;
-1. each call to printf is indented with 4 spaces;
-1. there are single spaces around the > and around the >; and
-1. there isn’t any space immediately after each ( or immediately before each ).
+1. there’s a single space after each `if`;
+1. each call to `printf` is indented with 4 spaces;
+1. there are single spaces around the `>` and around the `>`; and
+1. there isn’t any space immediately after each `(` or immediately before each `)`.
 
 To save space, some programmers like to keep the first curly brace on the same line as the condition itself, but we don’t recommend, as it’s harder to read, so don’t do this:
 
@@ -108,7 +108,7 @@ else
 
 ## Switches
 
-Declare a switch as follows:
+Declare a `switch` as follows:
 
 ```
 switch (n)
@@ -131,14 +131,14 @@ Notice how:
 
 1. each curly brace is on its own line;
 1. there’s a single space after switch;
-1. there isn’t any space immediately after each ( or immediately before each );
-1. the switch’s cases are indented with 4 spaces;
-1. the cases' bodies are indented further with 4 spaces; and
-1. each case (including default) ends with a break.
+1. there isn’t any space immediately after each `(` or immediately before each `)`;
+1. the `switch`’s `case`s are indented with 4 spaces;
+1. the `case`s' bodies are indented further with 4 spaces; and
+1. each `case` (including `default`) ends with a `break`.
  
 ## Functions
 
-In accordance with __[C99](http://en.wikipedia.org/wiki/C99)__, be sure to declare main with:
+In accordance with __[C99](http://en.wikipedia.org/wiki/C99)__, be sure to declare `main` with:
 
 ```
 int main(void)
@@ -176,7 +176,7 @@ int main(int argc, char **argv)
 }
 ```
 
-Do not declare main with:
+Do not declare `main` with:
 
 ```
 int main()
@@ -203,11 +203,11 @@ main()
 }
 ```
 
-As for your own functions, be sure to define them similarly, with each curly brace on its own line and with the return type on the same line as the function’s name, just as we’ve done with main.
+As for your own functions, be sure to define them similarly, with each curly brace on its own line and with the return type on the same line as the function’s name, just as we’ve done with `main`.
 
 ## Indentation
 
-Indent your code four spaces at a time to make clear which blocks of code are inside of others. If you use your keyboard’s Tab key to do so, be sure that your text editor’s configured to convert tabs (\t) to four spaces, else your code may not print or display properly on someone else’s computer, since \t renders differently in different editors. (If using __[CS50 IDE](http://cs50.io/)__, it’s fine to use Tab for indentation, rather than hitting your keyboard’s space bar repeatedly, since we’ve preconfigured it to convert \t to four spaces.)
+Indent your code four spaces at a time to make clear which blocks of code are inside of others. If you use your keyboard’s Tab key to do so, be sure that your text editor’s configured to convert tabs `\t` to four spaces, else your code may not print or display properly on someone else’s computer, since `\t` renders differently in different editors. (If using __[CS50 IDE](http://cs50.io/)__, it’s fine to use Tab for indentation, rather than hitting your keyboard’s space bar repeatedly, since we’ve preconfigured it to convert `\t` to four spaces.)
 
 Here’s some nicely indented code:
 
@@ -247,7 +247,7 @@ If you need more than three variables for iteration, it might be time to rethink
 
 ### while
 
-Declare while loops as follows:
+Declare `while` loops as follows:
 
 ```
 while (condition)
@@ -260,12 +260,12 @@ Notice how:
 
 1. each curly brace is on its own line;
 1. there’s a single space after `while`;
-1. there isn’t any space immediately after the ( or immediately before the ); and
+1. there isn’t any space immediately after the `(` or immediately before the `)`; and
 1. the loop’s body (a comment in this case) is indented with 4 spaces.
 
 ### do ... while
 
-Declare do ... while loops as follows:
+Declare `do ... while` loops as follows:
 
 ```
 do
@@ -278,8 +278,8 @@ while (condition);
 Notice how:
 
 1. each curly brace is on its own line;
-1. there’s a single space after while;
-1. there isn’t any space immediately after the ( or immediately before the ); and
+1. there’s a single space after `while`;
+1. there isn’t any space immediately after the `(` or immediately before the `)`; and
 1. the loop’s body (a comment in this case) is indented with 4 spaces.
 
 ## Pointers
@@ -298,7 +298,7 @@ int* p;
 
 ## Variables
 
-Because CS50 uses __[C99](http://en.wikipedia.org/wiki/C99)__, do not define all of your variables at the very top of your functions but, rather, when and where you actually need them. Moreover, scope your variables as tightly as possible. For instance, if i is only needed for the sake of a loop, declare i within the loop itself:
+Because CS50 uses __[C99](http://en.wikipedia.org/wiki/C99)__, do not define all of your variables at the very top of your functions but, rather, when and where you actually need them. Moreover, scope your variables as tightly as possible. For instance, if `i` is only needed for the sake of a loop, declare `i` within the loop itself:
 
 ```
 for (int i = 0; i < LIMIT; i++)
@@ -307,7 +307,7 @@ for (int i = 0; i < LIMIT; i++)
 }
 ```
 
-Though it’s fine to use variables like i, j, and k for iteration, most of your variables should be more specifically named. If you’re summing some values, for instance, call your variable sum. If your variable’s name warrants two words (e.g., is_ready), put an underscore between them, a convention popular in C though less so in other languages.
+Though it’s fine to use variables like `i`, `j`, and `k` for iteration, most of your variables should be more specifically named. If you’re summing some values, for instance, call your variable `sum`. If your variable’s name warrants two words (e.g., `is_ready`), put an underscore between them, a convention popular in C though less so in other languages.
 
 If declaring multiple variables of the same type at once, it’s fine to declare them together, as in:
 
@@ -347,7 +347,7 @@ typedef struct
 student;
 ```
 
-If the struct contains as a member a pointer to another such `struct`, declare the `struct` as having a name identical to the type, without using underscores:
+If the `struct` contains as a member a pointer to another such `struct`, declare the `struct` as having a name identical to the type, without using underscores:
 
 ```
 typedef struct node
