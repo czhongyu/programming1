@@ -1,5 +1,14 @@
 # programming1
 
+## Websites
+
+* __[CS50x UvA](https://cs50x.mprog.nl)__
+
+## CS50
+
+* __[CS50 Reference](https://reference.cs50.net/)__
+* __[CS50 IDE](https://cs50.io/)__
+
 ## Feedback
 
 Course : CS50x
