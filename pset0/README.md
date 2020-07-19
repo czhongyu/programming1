@@ -1,5 +1,9 @@
 # Catch the Fruits!
 
+This game can be hosted on [Scratch](https://scratch.mit.edu). Upload the game file to [Scratch](https://scratch.mit.edu) and play the game!
+
+## Game Instructions
+
 Move the cursor to control your bowl and catch the fruits!
 
 * for each fruit you catch, you earn 1 point
