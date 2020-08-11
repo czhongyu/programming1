@@ -172,3 +172,88 @@ Problem: quiz1
 Course : CS50x
 Problem: p1normal
 `Grade  : 8.5`
+
+## Feedback: Programmeren 2
+
+Course : CS50x
+Problem: speller
+`Correctness: 5`
+`Design: 3`
+`Style: 5`
+`Grade: 8.1`
+
+* Do not put unnecessary stuff into the `dictionary.h`-file. Put in the `.h`-file only variables and functions that you need in `speller.c` outside `dictionary.c`.
+* Good that you have created your own memory for the trie.
+* Add a little more comment! Put in the header-comments also which data structure you use (hash table or trie).
+* Take a good look at the style guide again. There is still room for improvement in this area. For example with your braces.
+* Do not leave `TODOs` in your comment.
+
+------------------------------------------------------------------------------
+
+Course : CS50x
+Problem: sentimental
+`Correctness: 5`
+`Design: 3`
+`Style: 3`
+`Grade: 7.8`
+
+* Beautiful code for `mario.py` and `cash.py`. Good use of the modulo! And well that you've made a lot of repetition from `vigenere.py`.
+* Good that you avoid some magic numbers. Unfortunately they are still in `cash.py`
+* If you `key` of `vigenere` immediately confuse `toupper`, you do not need to check here for the for loop. That saves some code.
+* Add a comment to each file!
+
+------------------------------------------------------------------------------
+
+Course : CS50x
+Problem: adventure
+`Correctness: 5`
+`Design: 3`
+`Style: 4`
+`Grade: 8.1`
+
+Neatly the commands classified into functions!
+* Try to be a little more detailed in your comments
+* do not forget to remove the TODO's and unused code from your code
+* Take a good look at the style guide (or use the style50 for python!)
+
+------------------------------------------------------------------------------
+
+Course : CS50x
+Problem: simil-less
+`Correctness: 5`
+`Design: 3`
+`Style: 5`
+`Grade: 8.5`
+
+* Good use of a function, mainly because it contains (partial) repetition in the code.
+* There is still some repetition in the `strings_in_both` function itself.
+* You could use better sets for the functions.
+
+------------------------------------------------------------------------------
+
+Course: CS50x
+Problem: finance
+`Correctness: 5`
+`Design: 4`
+`Style: 5`
+`Grade: 9.3`
+
+* Do not leave your API key in the code! It is dangerous if everyone has access to it!
+* You import datetime, but you do not use it anywhere. (Datetime functionality is already included in sql tables)
+* Nice use of an error handler, but it is a pity that you only use it once.
+* Very nice that there are so many personal touches!
+
+------------------------------------------------------------------------------
+
+Course : CS50x
+Problem: quiz2
+`Points: 24/24`
+`Grade  : pass`
+
+* Perfect score, great!
+
+------------------------------------------------------------------------------
+
+Course : CS50x
+Problem: p2normal
+`Grade  : 8.5`
