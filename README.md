@@ -1,15 +1,14 @@
-# programming1
+# programmeren
 
-## Websites
-
-* __[CS50x UvA](https://cs50x.mprog.nl)__
+Programmeren 1 (50621PRP6Y) & 2 (50622PRP6Y), 2018/2019, 1
 
 ## CS50
 
+* __[CS50x UvA](https://cs50x.mprog.nl)__
 * __[CS50 Reference](https://reference.cs50.net/)__
 * __[CS50 IDE](https://cs50.io/)__
 
-## Feedback
+## Feedback: Programmeren 1
 
 Course : CS50x
 Problem: scratch
